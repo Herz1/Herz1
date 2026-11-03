@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Herz1 — A little code. A little curiosity." />
-  <img src="./assets/typing.svg" width="100%" alt="Ideas into code. One commit at a time." />
+  <img src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/header.svg" width="100%" alt="Herz1 — A little code. A little curiosity." />
+  <img src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/typing.svg" width="100%" alt="Ideas into code. One commit at a time." />
 </p>
 
 <p align="center">把想法写成代码，把喜欢的事做成作品。</p>
@@ -14,7 +14,7 @@
 ### 🧩 Toolbox
 
 <p align="center">
-  <img src="./assets/stack.svg" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Three.js, HTML, CSS, Git and GitHub" />
+  <img src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/stack.svg" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Three.js, HTML, CSS, Git and GitHub" />
 </p>
 
 ### ✨ A few things I've made
@@ -26,14 +26,14 @@
 
 ### 📊 The public side of my GitHub
 
-<img src="./assets/snapshot.svg" width="100%" alt="Public GitHub statistics and repository language distribution, refreshed daily" />
+<img src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/snapshot.svg" width="100%" alt="Public GitHub statistics and repository language distribution, refreshed daily" />
 
 ### 🐍 Every little square counts
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/snake.svg" />
-  <img alt="A snake eating Herz1's GitHub contribution squares" src="./assets/snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/snake.svg" />
+  <img alt="A snake eating Herz1's GitHub contribution squares" src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/snake.svg" width="100%" />
 </picture>
 
 <details>
@@ -43,17 +43,17 @@
 **Pac-Man · 吃掉每一份贡献**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man playing on Herz1's contribution calendar" src="./assets/pacman-contribution-graph.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man playing on Herz1's contribution calendar" src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 **Breakout · 把贡献格子变成砖块**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/breakout-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/breakout-contribution-graph.svg" />
-  <img alt="Breakout playing on Herz1's contribution calendar" src="./assets/breakout-contribution-graph.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/breakout-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/breakout-contribution-graph.svg" />
+  <img alt="Breakout playing on Herz1's contribution calendar" src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/breakout-contribution-graph.svg" width="100%" />
 </picture>
 
 </details>
@@ -63,9 +63,9 @@
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/city-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/city.svg" />
-  <img alt="Herz1's GitHub contributions rendered as a 3D city" src="./assets/city.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/city-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/city.svg" />
+  <img alt="Herz1's GitHub contributions rendered as a 3D city" src="https://raw.githubusercontent.com/Herz1/Herz1/main/assets/city.svg" width="100%" />
 </picture>
 
 </details>

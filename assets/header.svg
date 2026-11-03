@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="252" viewBox="0 0 960 252" role="img" aria-label="Herz1 — A little code. A little curiosity.">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10172b"/><stop offset="1" stop-color="#19152e"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#6ee7ef"/><stop offset="1" stop-color="#c4a0ff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8b5cf6" stop-opacity=".24"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1" fill="#b5bde8" opacity=".14"/></pattern>
+  </defs>
+  <style>
+    .orbit {transform-origin:767px 126px;animation:orbit 45s linear infinite}
+    .spark {animation:pulse 4s ease-in-out infinite}
+    @keyframes orbit {to {transform:rotate(360deg)}}
+    @keyframes pulse {50% {opacity:.3}}
+    @media (prefers-reduced-motion:reduce) {.orbit,.spark {animation:none}}
+  </style>
+  <rect x="1" y="1" width="958" height="250" rx="18" fill="url(#bg)" stroke="#30304c"/>
+  <rect x="2" y="2" width="956" height="248" rx="17" fill="url(#dots)"/>
+  <ellipse cx="766" cy="126" rx="220" ry="124" fill="url(#glow)"/>
+  <path d="M48 54h30" stroke="#6ee7ef" stroke-width="3" stroke-linecap="round"/>
+  <text x="89" y="59" fill="#99a4c5" font-family="monospace" font-size="12" letter-spacing="3">WELCOME TO MY LITTLE CORNER</text>
+  <text x="47" y="148" fill="#f1f3ff" font-family="Segoe UI,Arial,sans-serif" font-weight="750" font-size="76" letter-spacing="2">HERZ1<tspan fill="#a78bfa">.</tspan></text>
+  <text x="51" y="188" fill="#aeb7d1" font-family="monospace" font-size="14" letter-spacing="2">A LITTLE CODE. A LITTLE CURIOSITY.</text>
+  <g fill="none" stroke="#8074b0" stroke-opacity=".35">
+    <circle cx="767" cy="126" r="90"/><circle cx="767" cy="126" r="63"/>
+    <ellipse cx="767" cy="126" rx="111" ry="39" transform="rotate(-25 767 126)"/>
+    <ellipse cx="767" cy="126" rx="111" ry="39" transform="rotate(35 767 126)"/>
+  </g>
+  <g class="orbit"><circle cx="767" cy="36" r="5" fill="#6ee7ef"/><circle cx="767" cy="216" r="3" fill="#c4a0ff"/></g>
+  <g transform="translate(767 126)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linejoin="round">
+    <path d="M-32-19 0-38 32-19V19L0 38-32 19Z M-32-19 0 0 32-19 M0 0V38"/>
+  </g>
+  <g fill="#c4a0ff" class="spark"><circle cx="648" cy="58" r="2"/><circle cx="887" cy="185" r="2"/><circle cx="900" cy="70" r="1.5"/></g>
+  <path d="M48 226H912" stroke="url(#accent)" stroke-opacity=".28"/>
+</svg>

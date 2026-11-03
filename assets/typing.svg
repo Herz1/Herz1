@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="52" viewBox="0 0 960 52" role="img" aria-label="Ideas into code. One commit at a time.">
+  <defs><clipPath id="reveal"><rect x="232" y="7" width="496" height="38" class="reveal"/></clipPath></defs>
+  <style>
+    .line {fill:#596985;font:20px monospace}
+    .reveal {animation:type 9s steps(41,end) infinite}
+    @keyframes type {0%,5% {width:0} 65%,95% {width:496px} 100% {width:0}}
+    @media (prefers-color-scheme:dark) {.line {fill:#a5b4fc}}
+    @media (prefers-reduced-motion:reduce) {.reveal {animation:none}}
+  </style>
+  <text class="line" x="480" y="33" text-anchor="middle" clip-path="url(#reveal)">&gt; Ideas into code. One commit at a time.</text>
+</svg>

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="304" viewBox="0 0 960 304" role="img" aria-label="Herz1 public repository statistics">
 <style>
- .bg {fill:#f8faff;stroke:#d9e0ef} .text {fill:#1e293b} .muted {fill:#64748b}
+ .bg {fill:#f8f2e8;stroke:#decfc0} .text {fill:#28211f} .muted {fill:#74645e}
  text {font-family:Segoe UI,Arial,sans-serif}
- @media(prefers-color-scheme:dark) {.bg{fill:#111827;stroke:#2b354a} .text{fill:#eef2ff} .muted{fill:#9caac4}}
+ @media(prefers-color-scheme:dark) {.bg{fill:#171b24;stroke:#3b3540} .text{fill:#f8f2e8} .muted{fill:#c2b4aa}}
 </style>
 <rect x="1" y="1" width="958" height="302" rx="16" class="bg"/>
 <text x="30" y="38" class="muted" font-family="monospace" font-size="12" letter-spacing="2">HERZ1 / PUBLIC SNAPSHOT</text>
@@ -13,14 +13,14 @@
 <text x="340" y="128" class="muted" font-size="13">Stars on public repos</text>
 <text x="650" y="101" class="text" font-size="42" font-weight="700">4</text>
 <text x="650" y="128" class="muted" font-size="13">Languages across original repos</text>
-<path d="M30 151H930" stroke="#8795b2" stroke-opacity=".22"/>
+<path d="M30 151H930" stroke="#b83a35" stroke-opacity=".24"/>
 <text x="30" y="181" class="muted" font-size="12">LANGUAGES · by primary language of non-fork public repositories</text>
-<rect x="30.00" y="198" width="360.00" height="12" fill="#a78bfa"><title>TypeScript: 4 repositories</title></rect>
-<circle cx="34" cy="233" r="4" fill="#a78bfa"/><text x="47" y="237" class="text" font-size="13">TypeScript <tspan class="muted">40%</tspan></text>
-<rect x="390.00" y="198" width="270.00" height="12" fill="#67e8f9"><title>HTML: 3 repositories</title></rect>
-<circle cx="344" cy="233" r="4" fill="#67e8f9"/><text x="357" y="237" class="text" font-size="13">HTML <tspan class="muted">30%</tspan></text>
-<rect x="660.00" y="198" width="180.00" height="12" fill="#60a5fa"><title>JavaScript: 2 repositories</title></rect>
-<circle cx="654" cy="233" r="4" fill="#60a5fa"/><text x="667" y="237" class="text" font-size="13">JavaScript <tspan class="muted">20%</tspan></text>
-<rect x="840.00" y="198" width="90.00" height="12" fill="#f9a8d4"><title>Python: 1 repositories</title></rect>
-<circle cx="34" cy="259" r="4" fill="#f9a8d4"/><text x="47" y="263" class="text" font-size="13">Python <tspan class="muted">10%</tspan></text>
+<rect x="30.00" y="198" width="360.00" height="12" fill="#b83a35"><title>TypeScript: 4 repositories</title></rect>
+<circle cx="34" cy="233" r="4" fill="#b83a35"/><text x="47" y="237" class="text" font-size="13">TypeScript <tspan class="muted">40%</tspan></text>
+<rect x="390.00" y="198" width="270.00" height="12" fill="#d76b62"><title>HTML: 3 repositories</title></rect>
+<circle cx="344" cy="233" r="4" fill="#d76b62"/><text x="357" y="237" class="text" font-size="13">HTML <tspan class="muted">30%</tspan></text>
+<rect x="660.00" y="198" width="180.00" height="12" fill="#c58b42"><title>JavaScript: 2 repositories</title></rect>
+<circle cx="654" cy="233" r="4" fill="#c58b42"/><text x="667" y="237" class="text" font-size="13">JavaScript <tspan class="muted">20%</tspan></text>
+<rect x="840.00" y="198" width="90.00" height="12" fill="#8e6b58"><title>Python: 1 repositories</title></rect>
+<circle cx="34" cy="259" r="4" fill="#8e6b58"/><text x="47" y="263" class="text" font-size="13">Python <tspan class="muted">10%</tspan></text>
 </svg>

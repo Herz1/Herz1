@@ -36,7 +36,7 @@ def public_repos(username, local):
 def render(repos):
     originals = [repo for repo in repos if not repo.get("fork")]
     languages = Counter(repo["language"] for repo in originals if repo.get("language"))
-    colors = ["#a78bfa", "#67e8f9", "#60a5fa", "#f9a8d4", "#86efac", "#fcd34d"]
+    colors = ["#b83a35", "#d76b62", "#c58b42", "#8e6b58", "#5f7d72", "#b8a58c"]
     top = languages.most_common(5)
     remainder = sum(languages.values()) - sum(count for _, count in top)
     if remainder:
@@ -44,9 +44,9 @@ def render(repos):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     pieces = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="304" viewBox="0 0 960 304" role="img" aria-label="Herz1 public repository statistics">
 <style>
- .bg {{fill:#f8faff;stroke:#d9e0ef}} .text {{fill:#1e293b}} .muted {{fill:#64748b}}
+ .bg {{fill:#f8f2e8;stroke:#decfc0}} .text {{fill:#28211f}} .muted {{fill:#74645e}}
  text {{font-family:Segoe UI,Arial,sans-serif}}
- @media(prefers-color-scheme:dark) {{.bg{{fill:#111827;stroke:#2b354a}} .text{{fill:#eef2ff}} .muted{{fill:#9caac4}}}}
+ @media(prefers-color-scheme:dark) {{.bg{{fill:#171b24;stroke:#3b3540}} .text{{fill:#f8f2e8}} .muted{{fill:#c2b4aa}}}}
 </style>
 <rect x="1" y="1" width="958" height="302" rx="16" class="bg"/>
 <text x="30" y="38" class="muted" font-family="monospace" font-size="12" letter-spacing="2">HERZ1 / PUBLIC SNAPSHOT</text>
@@ -60,7 +60,7 @@ def render(repos):
         x = 30 + index * 310
         pieces.append(f'<text x="{x}" y="101" class="text" font-size="42" font-weight="700">{value}</text>')
         pieces.append(f'<text x="{x}" y="128" class="muted" font-size="13">{label}</text>')
-    pieces.append('<path d="M30 151H930" stroke="#8795b2" stroke-opacity=".22"/>')
+    pieces.append('<path d="M30 151H930" stroke="#b83a35" stroke-opacity=".24"/>')
     pieces.append('<text x="30" y="181" class="muted" font-size="12">LANGUAGES · by primary language of non-fork public repositories</text>')
     x = 30.0
     total = sum(languages.values())
